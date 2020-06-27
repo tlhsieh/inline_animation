@@ -20,7 +20,7 @@ data = np.array([np.exp(-((xx - np.cos(t))**2 + (yy - np.sin(t))**2)/(2*0.4**2))
 viz.movie(data, yvec, xvec, sizefac=4)
 ```
 
-### Example 2: if input is xarry.DataArray, the x, y axes will be automatically loaded
+### Example 2: if input is xarray.DataArray, the x, y axes will be automatically loaded
 
 ```python
 import numpy as np
